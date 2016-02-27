@@ -3,6 +3,7 @@
 # import the necessary packages
 import numpy as np
 import cv2
+import cv2
  
 # load the games image
 image = cv2.imread("games.jpg")
@@ -22,5 +23,5 @@ approx = cv2.approxPolyDP(c, 0.05 * peri, True)
  
 # draw a green bounding box surrounding the red game
 cv2.drawContours(image, [approx], -1, (0, 255, 0), 4)
-cv2.imwrite("Image.png", image)
-cv2.waitKey(0)
+cv2.imwrite("Iiygoage.jpg", image)
+

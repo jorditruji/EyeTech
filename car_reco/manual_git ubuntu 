@@ -1,0 +1,23 @@
+Primera vegada que s'utilitza:
+proveu el comando:
+sudo git #Compravació de si el software està instalat al pc.
+
+Si no està instalat:
+sudo apt-get update
+sudo apt-get install git #instalació
+
+
+Sincronització:
+sudo git clone #només el primer cop
+sudo git pull #sincronització
+
+
+
+Com pujar els codis al git:
+
+git add .
+
+git commit -m "First commit"
+# Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+
+git push // actualitza al git i s'hi veuen els canvis
